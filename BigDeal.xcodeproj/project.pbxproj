@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9661B2A268E4B1B00D76217 /* BigDealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9661B29268E4B1B00D76217 /* BigDealApp.swift */; };
+		A9661B2C268E4B1B00D76217 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9661B2B268E4B1B00D76217 /* ContentView.swift */; };
+		A9661B2E268E4B2200D76217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9661B2D268E4B2200D76217 /* Assets.xcassets */; };
+		A9661B31268E4B2200D76217 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9661B30268E4B2200D76217 /* Preview Assets.xcassets */; };
+		A9661B3C268E4B2200D76217 /* BigDealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9661B3B268E4B2200D76217 /* BigDealTests.swift */; };
+		A9661B47268E4B2200D76217 /* BigDealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9661B46268E4B2200D76217 /* BigDealUITests.swift */; };
+		A9661B4C268E4B2200D76217 /* BigDeal WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A9661B4B268E4B2200D76217 /* BigDeal WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A9661B51268E4B2900D76217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9661B50268E4B2900D76217 /* Assets.xcassets */; };
+		A9661B58268E4B2900D76217 /* BigDeal WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A9661B57268E4B2900D76217 /* BigDeal WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A9661B5D268E4B2900D76217 /* BigDealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9661B5C268E4B2900D76217 /* BigDealApp.swift */; };
+		A9661B5F268E4B2900D76217 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9661B5E268E4B2900D76217 /* ContentView.swift */; };
+		A9661B61268E4B2900D76217 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9661B60268E4B2900D76217 /* NotificationController.swift */; };
+		A9661B63268E4B2900D76217 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9661B62268E4B2900D76217 /* NotificationView.swift */; };
+		A9661B65268E4B2900D76217 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9661B64268E4B2900D76217 /* ComplicationController.swift */; };
+		A9661B67268E4B3000D76217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9661B66268E4B3000D76217 /* Assets.xcassets */; };
+		A9661B6A268E4B3000D76217 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9661B69268E4B3000D76217 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9661B38268E4B2200D76217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9661B1E268E4B1B00D76217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9661B25268E4B1B00D76217;
+			remoteInfo = BigDeal;
+		};
+		A9661B43268E4B2200D76217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9661B1E268E4B1B00D76217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9661B25268E4B1B00D76217;
+			remoteInfo = BigDeal;
+		};
+		A9661B4D268E4B2200D76217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9661B1E268E4B1B00D76217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9661B4A268E4B2200D76217;
+			remoteInfo = "BigDeal WatchKit App";
+		};
+		A9661B59268E4B2900D76217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9661B1E268E4B1B00D76217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9661B56268E4B2900D76217;
+			remoteInfo = "BigDeal WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9661B72268E4B3000D76217 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A9661B58268E4B2900D76217 /* BigDeal WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9661B76268E4B3000D76217 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A9661B4C268E4B2200D76217 /* BigDeal WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9661B26268E4B1B00D76217 /* BigDeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigDeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9661B29268E4B1B00D76217 /* BigDealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigDealApp.swift; sourceTree = "<group>"; };
+		A9661B2B268E4B1B00D76217 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9661B2D268E4B2200D76217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9661B30268E4B2200D76217 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9661B32268E4B2200D76217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9661B37268E4B2200D76217 /* BigDealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigDealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9661B3B268E4B2200D76217 /* BigDealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigDealTests.swift; sourceTree = "<group>"; };
+		A9661B3D268E4B2200D76217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9661B42268E4B2200D76217 /* BigDealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigDealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9661B46268E4B2200D76217 /* BigDealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigDealUITests.swift; sourceTree = "<group>"; };
+		A9661B48268E4B2200D76217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9661B4B268E4B2200D76217 /* BigDeal WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BigDeal WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9661B50268E4B2900D76217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9661B52268E4B2900D76217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9661B57268E4B2900D76217 /* BigDeal WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BigDeal WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9661B5C268E4B2900D76217 /* BigDealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigDealApp.swift; sourceTree = "<group>"; };
+		A9661B5E268E4B2900D76217 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9661B60268E4B2900D76217 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A9661B62268E4B2900D76217 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A9661B64268E4B2900D76217 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A9661B66268E4B3000D76217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9661B69268E4B3000D76217 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9661B6B268E4B3000D76217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9661B6C268E4B3000D76217 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9661B23268E4B1B00D76217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9661B34268E4B2200D76217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9661B3F268E4B2200D76217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9661B54268E4B2900D76217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9661B1D268E4B1B00D76217 = {
+			isa = PBXGroup;
+			children = (
+				A9661B28268E4B1B00D76217 /* BigDeal */,
+				A9661B3A268E4B2200D76217 /* BigDealTests */,
+				A9661B45268E4B2200D76217 /* BigDealUITests */,
+				A9661B4F268E4B2200D76217 /* BigDeal WatchKit App */,
+				A9661B5B268E4B2900D76217 /* BigDeal WatchKit Extension */,
+				A9661B27268E4B1B00D76217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9661B27268E4B1B00D76217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9661B26268E4B1B00D76217 /* BigDeal.app */,
+				A9661B37268E4B2200D76217 /* BigDealTests.xctest */,
+				A9661B42268E4B2200D76217 /* BigDealUITests.xctest */,
+				A9661B4B268E4B2200D76217 /* BigDeal WatchKit App.app */,
+				A9661B57268E4B2900D76217 /* BigDeal WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9661B28268E4B1B00D76217 /* BigDeal */ = {
+			isa = PBXGroup;
+			children = (
+				A9661B29268E4B1B00D76217 /* BigDealApp.swift */,
+				A9661B2B268E4B1B00D76217 /* ContentView.swift */,
+				A9661B2D268E4B2200D76217 /* Assets.xcassets */,
+				A9661B32268E4B2200D76217 /* Info.plist */,
+				A9661B2F268E4B2200D76217 /* Preview Content */,
+			);
+			path = BigDeal;
+			sourceTree = "<group>";
+		};
+		A9661B2F268E4B2200D76217 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9661B30268E4B2200D76217 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9661B3A268E4B2200D76217 /* BigDealTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9661B3B268E4B2200D76217 /* BigDealTests.swift */,
+				A9661B3D268E4B2200D76217 /* Info.plist */,
+			);
+			path = BigDealTests;
+			sourceTree = "<group>";
+		};
+		A9661B45268E4B2200D76217 /* BigDealUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9661B46268E4B2200D76217 /* BigDealUITests.swift */,
+				A9661B48268E4B2200D76217 /* Info.plist */,
+			);
+			path = BigDealUITests;
+			sourceTree = "<group>";
+		};
+		A9661B4F268E4B2200D76217 /* BigDeal WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A9661B50268E4B2900D76217 /* Assets.xcassets */,
+				A9661B52268E4B2900D76217 /* Info.plist */,
+			);
+			path = "BigDeal WatchKit App";
+			sourceTree = "<group>";
+		};
+		A9661B5B268E4B2900D76217 /* BigDeal WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A9661B5C268E4B2900D76217 /* BigDealApp.swift */,
+				A9661B5E268E4B2900D76217 /* ContentView.swift */,
+				A9661B60268E4B2900D76217 /* NotificationController.swift */,
+				A9661B62268E4B2900D76217 /* NotificationView.swift */,
+				A9661B64268E4B2900D76217 /* ComplicationController.swift */,
+				A9661B66268E4B3000D76217 /* Assets.xcassets */,
+				A9661B6B268E4B3000D76217 /* Info.plist */,
+				A9661B6C268E4B3000D76217 /* PushNotificationPayload.apns */,
+				A9661B68268E4B3000D76217 /* Preview Content */,
+			);
+			path = "BigDeal WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A9661B68268E4B3000D76217 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9661B69268E4B3000D76217 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9661B25268E4B1B00D76217 /* BigDeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9661B77268E4B3000D76217 /* Build configuration list for PBXNativeTarget "BigDeal" */;
+			buildPhases = (
+				A9661B22268E4B1B00D76217 /* Sources */,
+				A9661B23268E4B1B00D76217 /* Frameworks */,
+				A9661B24268E4B1B00D76217 /* Resources */,
+				A9661B76268E4B3000D76217 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9661B4E268E4B2200D76217 /* PBXTargetDependency */,
+			);
+			name = BigDeal;
+			productName = BigDeal;
+			productReference = A9661B26268E4B1B00D76217 /* BigDeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9661B36268E4B2200D76217 /* BigDealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9661B7A268E4B3000D76217 /* Build configuration list for PBXNativeTarget "BigDealTests" */;
+			buildPhases = (
+				A9661B33268E4B2200D76217 /* Sources */,
+				A9661B34268E4B2200D76217 /* Frameworks */,
+				A9661B35268E4B2200D76217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9661B39268E4B2200D76217 /* PBXTargetDependency */,
+			);
+			name = BigDealTests;
+			productName = BigDealTests;
+			productReference = A9661B37268E4B2200D76217 /* BigDealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9661B41268E4B2200D76217 /* BigDealUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9661B7D268E4B3000D76217 /* Build configuration list for PBXNativeTarget "BigDealUITests" */;
+			buildPhases = (
+				A9661B3E268E4B2200D76217 /* Sources */,
+				A9661B3F268E4B2200D76217 /* Frameworks */,
+				A9661B40268E4B2200D76217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9661B44268E4B2200D76217 /* PBXTargetDependency */,
+			);
+			name = BigDealUITests;
+			productName = BigDealUITests;
+			productReference = A9661B42268E4B2200D76217 /* BigDealUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A9661B4A268E4B2200D76217 /* BigDeal WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9661B73268E4B3000D76217 /* Build configuration list for PBXNativeTarget "BigDeal WatchKit App" */;
+			buildPhases = (
+				A9661B49268E4B2200D76217 /* Resources */,
+				A9661B72268E4B3000D76217 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9661B5A268E4B2900D76217 /* PBXTargetDependency */,
+			);
+			name = "BigDeal WatchKit App";
+			productName = "BigDeal WatchKit App";
+			productReference = A9661B4B268E4B2200D76217 /* BigDeal WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A9661B56268E4B2900D76217 /* BigDeal WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9661B6F268E4B3000D76217 /* Build configuration list for PBXNativeTarget "BigDeal WatchKit Extension" */;
+			buildPhases = (
+				A9661B53268E4B2900D76217 /* Sources */,
+				A9661B54268E4B2900D76217 /* Frameworks */,
+				A9661B55268E4B2900D76217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BigDeal WatchKit Extension";
+			productName = "BigDeal WatchKit Extension";
+			productReference = A9661B57268E4B2900D76217 /* BigDeal WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9661B1E268E4B1B00D76217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					A9661B25268E4B1B00D76217 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A9661B36268E4B2200D76217 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A9661B25268E4B1B00D76217;
+					};
+					A9661B41268E4B2200D76217 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A9661B25268E4B1B00D76217;
+					};
+					A9661B4A268E4B2200D76217 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A9661B56268E4B2900D76217 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = A9661B21268E4B1B00D76217 /* Build configuration list for PBXProject "BigDeal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9661B1D268E4B1B00D76217;
+			productRefGroup = A9661B27268E4B1B00D76217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9661B25268E4B1B00D76217 /* BigDeal */,
+				A9661B36268E4B2200D76217 /* BigDealTests */,
+				A9661B41268E4B2200D76217 /* BigDealUITests */,
+				A9661B4A268E4B2200D76217 /* BigDeal WatchKit App */,
+				A9661B56268E4B2900D76217 /* BigDeal WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9661B24268E4B1B00D76217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9661B31268E4B2200D76217 /* Preview Assets.xcassets in Resources */,
+				A9661B2E268E4B2200D76217 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9661B35268E4B2200D76217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9661B40268E4B2200D76217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9661B49268E4B2200D76217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9661B51268E4B2900D76217 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9661B55268E4B2900D76217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9661B6A268E4B3000D76217 /* Preview Assets.xcassets in Resources */,
+				A9661B67268E4B3000D76217 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9661B22268E4B1B00D76217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9661B2C268E4B1B00D76217 /* ContentView.swift in Sources */,
+				A9661B2A268E4B1B00D76217 /* BigDealApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9661B33268E4B2200D76217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9661B3C268E4B2200D76217 /* BigDealTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9661B3E268E4B2200D76217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9661B47268E4B2200D76217 /* BigDealUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9661B53268E4B2900D76217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9661B61268E4B2900D76217 /* NotificationController.swift in Sources */,
+				A9661B5F268E4B2900D76217 /* ContentView.swift in Sources */,
+				A9661B65268E4B2900D76217 /* ComplicationController.swift in Sources */,
+				A9661B5D268E4B2900D76217 /* BigDealApp.swift in Sources */,
+				A9661B63268E4B2900D76217 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9661B39268E4B2200D76217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9661B25268E4B1B00D76217 /* BigDeal */;
+			targetProxy = A9661B38268E4B2200D76217 /* PBXContainerItemProxy */;
+		};
+		A9661B44268E4B2200D76217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9661B25268E4B1B00D76217 /* BigDeal */;
+			targetProxy = A9661B43268E4B2200D76217 /* PBXContainerItemProxy */;
+		};
+		A9661B4E268E4B2200D76217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9661B4A268E4B2200D76217 /* BigDeal WatchKit App */;
+			targetProxy = A9661B4D268E4B2200D76217 /* PBXContainerItemProxy */;
+		};
+		A9661B5A268E4B2900D76217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9661B56268E4B2900D76217 /* BigDeal WatchKit Extension */;
+			targetProxy = A9661B59268E4B2900D76217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9661B6D268E4B3000D76217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9661B6E268E4B3000D76217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A9661B70268E4B3000D76217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BigDeal WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = G77QN5N9H4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BigDeal WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7706623269.BigDeal.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		A9661B71268E4B3000D76217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BigDeal WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = G77QN5N9H4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BigDeal WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7706623269.BigDeal.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		A9661B74268E4B3000D76217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G77QN5N9H4;
+				IBSC_MODULE = BigDeal_WatchKit_Extension;
+				INFOPLIST_FILE = "BigDeal WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7706623269.BigDeal.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		A9661B75268E4B3000D76217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G77QN5N9H4;
+				IBSC_MODULE = BigDeal_WatchKit_Extension;
+				INFOPLIST_FILE = "BigDeal WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7706623269.BigDeal.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		A9661B78268E4B3000D76217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BigDeal/Preview Content\"";
+				DEVELOPMENT_TEAM = G77QN5N9H4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BigDeal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7706623269.BigDeal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9661B79268E4B3000D76217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BigDeal/Preview Content\"";
+				DEVELOPMENT_TEAM = G77QN5N9H4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BigDeal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7706623269.BigDeal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9661B7B268E4B3000D76217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G77QN5N9H4;
+				INFOPLIST_FILE = BigDealTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7706623269.BigDealTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigDeal.app/BigDeal";
+			};
+			name = Debug;
+		};
+		A9661B7C268E4B3000D76217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G77QN5N9H4;
+				INFOPLIST_FILE = BigDealTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7706623269.BigDealTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigDeal.app/BigDeal";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9661B7E268E4B3000D76217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G77QN5N9H4;
+				INFOPLIST_FILE = BigDealUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7706623269.BigDealUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BigDeal;
+			};
+			name = Debug;
+		};
+		A9661B7F268E4B3000D76217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G77QN5N9H4;
+				INFOPLIST_FILE = BigDealUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7706623269.BigDealUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BigDeal;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9661B21268E4B1B00D76217 /* Build configuration list for PBXProject "BigDeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9661B6D268E4B3000D76217 /* Debug */,
+				A9661B6E268E4B3000D76217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9661B6F268E4B3000D76217 /* Build configuration list for PBXNativeTarget "BigDeal WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9661B70268E4B3000D76217 /* Debug */,
+				A9661B71268E4B3000D76217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9661B73268E4B3000D76217 /* Build configuration list for PBXNativeTarget "BigDeal WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9661B74268E4B3000D76217 /* Debug */,
+				A9661B75268E4B3000D76217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9661B77268E4B3000D76217 /* Build configuration list for PBXNativeTarget "BigDeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9661B78268E4B3000D76217 /* Debug */,
+				A9661B79268E4B3000D76217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9661B7A268E4B3000D76217 /* Build configuration list for PBXNativeTarget "BigDealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9661B7B268E4B3000D76217 /* Debug */,
+				A9661B7C268E4B3000D76217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9661B7D268E4B3000D76217 /* Build configuration list for PBXNativeTarget "BigDealUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9661B7E268E4B3000D76217 /* Debug */,
+				A9661B7F268E4B3000D76217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9661B1E268E4B1B00D76217 /* Project object */;
+}
