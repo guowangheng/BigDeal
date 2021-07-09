@@ -1,0 +1,6 @@
+framework module Pods_BigDeal {
+  umbrella header "Pods-BigDeal-umbrella.h"
+
+  export *
+  module * { export * }
+}

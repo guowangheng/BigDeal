@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,10 @@
 		A9661B65268E4B2900D76217 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9661B64268E4B2900D76217 /* ComplicationController.swift */; };
 		A9661B67268E4B3000D76217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9661B66268E4B3000D76217 /* Assets.xcassets */; };
 		A9661B6A268E4B3000D76217 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9661B69268E4B3000D76217 /* Preview Assets.xcassets */; };
+		A968A6622698AC2300FEC9A1 /* BigDeal.app in Resources */ = {isa = PBXBuildFile; fileRef = A9661B26268E4B1B00D76217 /* BigDeal.app */; };
+		A9ABECDB268E5645001E2DBA /* TextCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9167927268E539300FC415D /* TextCache.swift */; };
+		A9ABECF726962793001E2DBA /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ABECF626962793001E2DBA /* DataRequest.swift */; };
+		FB5BF2B8FEE02B57A2493D2A /* Pods_BigDeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2132D76E2C22D09E4170A41B /* Pods_BigDeal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,19 +44,19 @@
 			remoteGlobalIDString = A9661B25268E4B1B00D76217;
 			remoteInfo = BigDeal;
 		};
-		A9661B4D268E4B2200D76217 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9661B1E268E4B1B00D76217 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A9661B4A268E4B2200D76217;
-			remoteInfo = "BigDeal WatchKit App";
-		};
 		A9661B59268E4B2900D76217 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A9661B1E268E4B1B00D76217 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A9661B56268E4B2900D76217;
 			remoteInfo = "BigDeal WatchKit Extension";
+		};
+		A968A68E2698AEBF00FEC9A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9661B1E268E4B1B00D76217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9661B25268E4B1B00D76217;
+			remoteInfo = BigDeal;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -82,6 +86,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2132D76E2C22D09E4170A41B /* Pods_BigDeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigDeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0CE4C001DA0987474635A2 /* Pods-BigDeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigDeal.debug.xcconfig"; path = "Target Support Files/Pods-BigDeal/Pods-BigDeal.debug.xcconfig"; sourceTree = "<group>"; };
+		A9167927268E539300FC415D /* TextCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCache.swift; sourceTree = "<group>"; };
 		A9661B26268E4B1B00D76217 /* BigDeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigDeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9661B29268E4B1B00D76217 /* BigDealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigDealApp.swift; sourceTree = "<group>"; };
 		A9661B2B268E4B1B00D76217 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +114,8 @@
 		A9661B69268E4B3000D76217 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9661B6B268E4B3000D76217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9661B6C268E4B3000D76217 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A9ABECF626962793001E2DBA /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		FB1B09420D04F0D6227CF9AE /* Pods-BigDeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigDeal.release.xcconfig"; path = "Target Support Files/Pods-BigDeal/Pods-BigDeal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5BF2B8FEE02B57A2493D2A /* Pods_BigDeal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +148,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFA6CD401BE0F7EB8910F358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41C7BD6FF315CE36954880B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2132D76E2C22D09E4170A41B /* Pods_BigDeal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4F7049AFDD6A4985F36692A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B0CE4C001DA0987474635A2 /* Pods-BigDeal.debug.xcconfig */,
+				FB1B09420D04F0D6227CF9AE /* Pods-BigDeal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A9661B1D268E4B1B00D76217 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +184,8 @@
 				A9661B4F268E4B2200D76217 /* BigDeal WatchKit App */,
 				A9661B5B268E4B2900D76217 /* BigDeal WatchKit Extension */,
 				A9661B27268E4B1B00D76217 /* Products */,
+				A4F7049AFDD6A4985F36692A /* Pods */,
+				41C7BD6FF315CE36954880B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,10 +205,12 @@
 			isa = PBXGroup;
 			children = (
 				A9661B29268E4B1B00D76217 /* BigDealApp.swift */,
+				A9167927268E539300FC415D /* TextCache.swift */,
 				A9661B2B268E4B1B00D76217 /* ContentView.swift */,
 				A9661B2D268E4B2200D76217 /* Assets.xcassets */,
 				A9661B32268E4B2200D76217 /* Info.plist */,
 				A9661B2F268E4B2200D76217 /* Preview Content */,
+				A9ABECF626962793001E2DBA /* DataRequest.swift */,
 			);
 			path = BigDeal;
 			sourceTree = "<group>";
@@ -243,15 +281,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9661B77268E4B3000D76217 /* Build configuration list for PBXNativeTarget "BigDeal" */;
 			buildPhases = (
+				A2A8CB0A806D7360744AA483 /* [CP] Check Pods Manifest.lock */,
 				A9661B22268E4B1B00D76217 /* Sources */,
 				A9661B23268E4B1B00D76217 /* Frameworks */,
 				A9661B24268E4B1B00D76217 /* Resources */,
 				A9661B76268E4B3000D76217 /* Embed Watch Content */,
+				135D2DF9CEB24D958E603F33 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A9661B4E268E4B2200D76217 /* PBXTargetDependency */,
 			);
 			name = BigDeal;
 			productName = BigDeal;
@@ -300,6 +339,7 @@
 			buildPhases = (
 				A9661B49268E4B2200D76217 /* Resources */,
 				A9661B72268E4B3000D76217 /* Embed App Extensions */,
+				AFA6CD401BE0F7EB8910F358 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,6 +362,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A968A68F2698AEBF00FEC9A1 /* PBXTargetDependency */,
 			);
 			name = "BigDeal WatchKit Extension";
 			productName = "BigDeal WatchKit Extension";
@@ -414,6 +455,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A968A6622698AC2300FEC9A1 /* BigDeal.app in Resources */,
 				A9661B6A268E4B3000D76217 /* Preview Assets.xcassets in Resources */,
 				A9661B67268E4B3000D76217 /* Assets.xcassets in Resources */,
 			);
@@ -421,13 +463,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		135D2DF9CEB24D958E603F33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigDeal/Pods-BigDeal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigDeal/Pods-BigDeal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BigDeal/Pods-BigDeal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A8CB0A806D7360744AA483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigDeal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9661B22268E4B1B00D76217 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9ABECDB268E5645001E2DBA /* TextCache.swift in Sources */,
 				A9661B2C268E4B1B00D76217 /* ContentView.swift in Sources */,
 				A9661B2A268E4B1B00D76217 /* BigDealApp.swift in Sources */,
+				A9ABECF726962793001E2DBA /* DataRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,15 +558,15 @@
 			target = A9661B25268E4B1B00D76217 /* BigDeal */;
 			targetProxy = A9661B43268E4B2200D76217 /* PBXContainerItemProxy */;
 		};
-		A9661B4E268E4B2200D76217 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A9661B4A268E4B2200D76217 /* BigDeal WatchKit App */;
-			targetProxy = A9661B4D268E4B2200D76217 /* PBXContainerItemProxy */;
-		};
 		A9661B5A268E4B2900D76217 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A9661B56268E4B2900D76217 /* BigDeal WatchKit Extension */;
 			targetProxy = A9661B59268E4B2900D76217 /* PBXContainerItemProxy */;
+		};
+		A968A68F2698AEBF00FEC9A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9661B25268E4B1B00D76217 /* BigDeal */;
+			targetProxy = A968A68E2698AEBF00FEC9A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -688,6 +774,7 @@
 		};
 		A9661B78268E4B3000D76217 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0CE4C001DA0987474635A2 /* Pods-BigDeal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -711,6 +798,7 @@
 		};
 		A9661B79268E4B3000D76217 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1B09420D04F0D6227CF9AE /* Pods-BigDeal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

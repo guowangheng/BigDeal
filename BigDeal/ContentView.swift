@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var cache: TextCache = TextCache()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack {
+                    Text(cache.text ?? "等待更新时间")
+                        .frame(width: 300,
+                               height: 44,
+                               alignment: .center)
+                    Button(action: {
+                            self.cache.viewDidLoad()
+                        }) {
+                            Text("点击更新时间")
+                        }
+                }.cornerRadius(8).border(Color(.gray))
+        
     }
 }
 
